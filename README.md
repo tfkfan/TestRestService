@@ -114,13 +114,9 @@ sh docker-build-deploy.sh
 Сервисы доступны по адресам
 
 ```
-localhost:8080/ws/v1/categoryservice?wsdl
-localhost:8080/ws/v1/modelservice?wsdl
-localhost:8080/ws/v1/categorymodelservice?wsdl
-
-localhost:8080/categoryService/v1[\?]+wsdl
-localhost:8080/modelService/v1[\?]+wsdl
-localhost:8080/categoryModelService/v1[\?]+wsdl
+localhost:8080/v1/categoryModels
+localhost:8080/v1/categories
+localhost:8080/v1/models
 ```
 
 ## Continuous Integration (optional)
